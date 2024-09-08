@@ -1,0 +1,71 @@
+Dizilerdeki bağlı listeler sırasıyla yazdırılabilirdi. 
+    // Asagi yonlu listeleri yazdir
+    cout << "Asagi yonlu liste: " << endl;
+    for (int i = 0; i < satirSayisi; i++) {
+        birlerBasamagiDizisi[i].Yazdir();
+        cout << endl;
+    }
+
+    // Yukari yonlu listeleri yazdir
+    cout << "Yukari yonlu liste: " << endl;
+    for (int i = 0; i < satirSayisi; i++) {
+        onlarBasamagiDizisi[i].Yazdir();
+        cout << endl;
+    } 
+
+
+    // Yeni Asagi yonlu listeleri yazdir
+    cout << "Yeni Asagi yonlu liste: " << endl;
+    for (int i = 0; i < satirSayisi; i++) {
+        birlerBasamagiDizisi[i].Yazdir();
+        cout << endl;
+    }
+
+    // Yeni Yukari yonlu listeleri yazdir
+    cout << "Yeni Yukari yonlu liste: " << endl;
+    for (int i = 0; i < satirSayisi; i++) {
+        onlarBasamagiDizisi[i].Yazdir();
+        cout << endl;
+    }
+   Örnek olarak Sayilar.txt dosyasının
+   17 25 30 12
+   19 78 37
+   62 30 28 56 
+   şeklinde olduğunu düşünürsek Konum A =0 ve Konum B =2 için çıktı:
+
+   Yukari yonlu liste: 
+   1 2 3 1 
+
+   1 7 3
+
+   6 3 2 5
+
+   Asagi yonlu liste:  
+   7 5 0 2 
+
+   9 8 7 
+
+   2 0 8 6 
+
+
+   Konum A: 0
+   Konum B: 2
+
+
+   Yeni Yukari yonlu liste:
+   2 0 8 6
+
+   1 7 3
+
+   6 3 2 5
+
+   Yeni Asagi yonlu liste: 
+   7 5 0 2
+
+   9 8 7
+
+   1 2 3 1 
+
+   Ust: 16.1667
+   Alt : 15.5	şeklinde olabilirdi.
+
